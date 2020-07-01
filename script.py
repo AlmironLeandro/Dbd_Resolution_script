@@ -24,7 +24,5 @@ def verification():
             print("FUE FALSE")
             return False        
                
-# [15:57, 27/6/2020] Mati Bro: Que cuando se abra el proceso del dbd
-# [15:58, 27/6/2020] Mati Bro: Se me cambie la resolución a 1024x768
-# [15:58, 27/6/2020] Mati Bro: Y cuando cierre el proceso se me cambie a 1366x768
+
 open()
