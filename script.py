@@ -7,21 +7,21 @@ def isProcess(nameProcess):
              return True
          
 def open():
-    subprocess.call([r'resolution1024x768.bat'])
-    time.sleep(10)
+    subprocess.call(['resolution1024x768.bat'])
+    time.sleep(5)
     os.startfile("steam://rungameid/381210")
-    time.sleep(15)
+    time.sleep(13)
     verification()
     
 
 def verification():
     while True:
-        if(isProcess("DeadByDaylight-Win64-Shipping.exe")):
-            print("FUE TRUE")
+        if(isProcess("DeadByDaylight-Win64-Shipping.exe" or "DeadByDaylight.exe")):
+            print("isProcess-->True")
             
         else:
             subprocess.call([r'resolution1366x768.bat'])
-            print("FUE FALSE")
+            print("isProcess-->True")
             return False        
                
 
